@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380">
+  <defs>
+    <radialGradient id="light"><stop stop-color="#9a185c"/><stop offset="1" stop-color="#1a0a21"/></radialGradient>
+    <linearGradient id="blade" x2="0.9" y2="1"><stop stop-color="#ffddf0"/><stop offset=".4" stop-color="#fda1d2"/><stop offset="1" stop-color="#9a2878"/></linearGradient>
+    <pattern id="floor" width="49" height="49" patternUnits="userSpaceOnUse" patternTransform="rotate(45) scale(1 .6)">
+      <path d="M0 49V0h49" fill="none" stroke="#f28bb2" stroke-opacity=".23"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="380" rx="17" fill="url(#light)"/>
+  <rect y="156" width="600" height="224" fill="url(#floor)"/>
+  <circle cx="300" cy="182" r="119" fill="none" stroke="#ff79a6" stroke-width="2" opacity=".48"/>
+  <circle cx="300" cy="182" r="139" fill="none" stroke="#ff79a6" opacity=".24"/>
+  <g transform="rotate(32 300 190)">
+    <path d="m300 49-21 43v105h42V92Z" fill="url(#blade)" stroke="#ffbbe0" stroke-width="2"/>
+    <path d="M300 74v122" stroke="#fff0f8" stroke-opacity=".66" stroke-width="2"/>
+    <path d="M260 195h80v15h-80z" fill="#ff93bf"/>
+    <path d="M289 210h22v69h-22z" fill="#883568" stroke="#f997c4"/>
+    <path d="M281 275h38v15h-38z" fill="#ffc1df"/>
+  </g>
+  <path d="M93 100h24m-12-12v24m379 145h22m-11-11v22" stroke="#f189bc" stroke-width="2" opacity=".65"/>
+</svg>

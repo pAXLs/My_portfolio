@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380">
+  <defs>
+    <linearGradient id="canvas" x2="1" y2="1"><stop stop-color="#612468"/><stop offset="1" stop-color="#2c103c"/></linearGradient>
+    <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#8e3489"/><stop offset="1" stop-color="#f061ae"/></linearGradient>
+  </defs>
+  <rect width="600" height="380" rx="17" fill="url(#canvas)"/>
+  <circle cx="480" cy="60" r="87" fill="#a3388e" opacity=".25"/>
+  <circle cx="121" cy="343" r="101" fill="#c94b9d" opacity=".16"/>
+  <rect x="80" y="64" width="440" height="252" rx="17" fill="#180b24" stroke="#af67ae" stroke-width="2"/>
+  <path d="M80 103h440" stroke="#6d4476" stroke-width="2"/>
+  <circle cx="103" cy="84" r="4" fill="#ff98ca"/>
+  <circle cx="118" cy="84" r="4" fill="#df87e2"/>
+  <circle cx="133" cy="84" r="4" fill="#8c63ba"/>
+  <path d="M112 139h86" stroke="#d0a4d2" stroke-width="5" stroke-linecap="round"/>
+  <text x="108" y="198" fill="#fff1fb" font-family="Arial,sans-serif" font-size="47" font-weight="700">AXL.DEV</text>
+  <path d="M112 219h132m-132 15h101" stroke="#a87fad" stroke-width="5" stroke-linecap="round"/>
+  <rect x="110" y="254" width="98" height="26" rx="7" fill="#ff98ca"/>
+  <rect x="308" y="125" width="184" height="159" rx="13" fill="#3d134a" stroke="#9b4b91"/>
+  <circle cx="421" cy="222" r="32" fill="#dd4a9c" opacity=".82"/>
+  <path d="M381 150h36v35h35v36h-35v35h-36v-35h-35v-36h35z" fill="url(#glass)" stroke="#ffabd7" stroke-width="2" transform="rotate(25 399 203)"/>
+</svg>

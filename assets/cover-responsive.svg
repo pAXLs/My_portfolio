@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380">
+  <defs>
+    <linearGradient id="canvas" x2="1" y2="1"><stop stop-color="#29174b"/><stop offset="1" stop-color="#573261"/></linearGradient>
+    <pattern id="dots" width="21" height="21" patternUnits="userSpaceOnUse"><circle cx="9" cy="9" r="1" fill="#cfa6d3" opacity=".45"/></pattern>
+  </defs>
+  <rect width="600" height="380" rx="17" fill="url(#canvas)"/>
+  <rect width="600" height="380" rx="17" fill="url(#dots)"/>
+  <g transform="translate(122 69)">
+    <rect width="218" height="242" rx="14" fill="#1a102c" stroke="#ab79b5" stroke-width="2"/>
+    <path d="M17 21h184" stroke="#845685" stroke-width="2"/>
+    <rect x="17" y="42" width="184" height="87" rx="9" fill="#81377f"/>
+    <rect x="17" y="143" width="56" height="67" rx="6" fill="#b565a3"/>
+    <rect x="81" y="143" width="56" height="67" rx="6" fill="#844fa2"/>
+    <rect x="145" y="143" width="56" height="67" rx="6" fill="#a45d92"/>
+    <path d="M31 64h53m-53 13h32" stroke="#fbc1e4" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(353 90)">
+    <rect width="126" height="224" rx="18" fill="#1a102c" stroke="#f3a8d3" stroke-width="2"/>
+    <path d="M50 12h26" stroke="#b18ab5" stroke-width="3" stroke-linecap="round"/>
+    <rect x="11" y="27" width="104" height="76" rx="8" fill="#81377f"/>
+    <rect x="11" y="112" width="49" height="43" rx="5" fill="#b565a3"/>
+    <rect x="66" y="112" width="49" height="43" rx="5" fill="#844fa2"/>
+    <rect x="11" y="161" width="49" height="43" rx="5" fill="#a45d92"/>
+    <path d="M23 47h41m-41 11h25" stroke="#fbc1e4" stroke-width="3" stroke-linecap="round"/>
+  </g>
+</svg>

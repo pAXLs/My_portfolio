@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#13071e">
+  <meta name="description" content="Портфолио Александра Павленко. Веб-интерфейсы, интерактивные прототипы и разработка игр на Godot.">
+  <title>Александр Павленко — веб и игры · AXL.DEV</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body id="page-top">
+  <a class="skip-link" href="#main">К содержанию</a>
+  <div class="topbar">
+    <nav class="shell navbar" aria-label="Основная навигация">
+      <a class="brand" href="#page-top" aria-label="AXL.DEV, главная">
+        <img src="assets/mark.svg" alt="" width="32" height="32">
+        AXL<span>.DEV</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navbarResponsive">Меню</button>
+      <ul class="nav-list" id="navbarResponsive">
+        <li><a href="#page-top">Главная</a></li>
+        <li><a href="#portfolio">Проекты</a></li>
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#contact">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="main">
+    <header class="masthead">
+      <div class="shell hero-layout">
+        <div class="hero-copy">
+          <p class="hero-name">Александр Павленко</p>
+          <h1>Веб <em>и игры<span>.</span></em></h1>
+          <p class="hero-description">Разрабатываю веб-интерфейсы и собираю игровые прототипы на Godot.</p>
+          <a class="button button-primary" href="#portfolio">Смотреть работы</a>
+        </div>
+        <img class="masthead-art" src="assets/hero-violet.jpg" alt="" width="1254" height="1254" fetchpriority="high">
+      </div>
+    </header>
+
+    <section class="page-section portfolio" id="portfolio" aria-labelledby="portfolio-heading">
+      <div class="shell">
+        <div class="section-heading">
+          <h2 id="portfolio-heading">Проекты</h2>
+          <p>Игровой прототип и разработка этого сайта.</p>
+        </div>
+        <div class="project-grid">
+          <article class="portfolio-item">
+            <div class="project-image project-game">
+              <img src="assets/cover-devil-hunter.svg" alt="Меч на фоне изометрической сетки" loading="lazy" width="600" height="380">
+            </div>
+            <div class="project-body">
+              <p class="project-type">GameDev · Godot 4</p>
+              <h3>Devil Hunter</h3>
+              <p>Прототип изометрической экшен-RPG с перекатом, ударами мечом и прицеливанием мышью.</p>
+              <a class="text-link" href="https://github.com/pAXLs/devil_hanter_game">Код на GitHub</a>
+            </div>
+          </article>
+          <article class="portfolio-item">
+            <div class="project-image project-ui">
+              <img src="assets/cover-portfolio.svg" alt="Иллюстрация первого экрана AXL.DEV в окне браузера" loading="lazy" width="600" height="380">
+            </div>
+            <div class="project-body">
+              <p class="project-type">Frontend · HTML, CSS, JS</p>
+              <h3>AXL.DEV</h3>
+              <p>Сайт-портфолио с авторским оформлением, галереей проектов и формой обратной связи.</p>
+              <button class="text-link detail-trigger" type="button" data-project="portfolio">Подробнее<span class="sr-only"> об AXL.DEV</span></button>
+            </div>
+          </article>
+          <article class="portfolio-item">
+            <div class="project-image project-dashboard">
+              <img src="assets/cover-responsive.svg" alt="Две версии сайта с разным расположением блоков" loading="lazy" width="600" height="380">
+            </div>
+            <div class="project-body">
+              <p class="project-type">Frontend · Адаптивность</p>
+              <h3>AXL.DEV на телефоне</h3>
+              <p>Мобильная версия с компактным меню, двухколоночной галереей и удобными полями формы.</p>
+              <button class="text-link detail-trigger" type="button" data-project="responsive">Подробнее<span class="sr-only"> о мобильной версии</span></button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section about" id="about" aria-labelledby="about-heading">
+      <div class="shell about-layout">
+        <div>
+          <h2 id="about-heading">Обо мне</h2>
+          <p class="about-lead">Работаю с веб-интерфейсами и игровыми прототипами.</p>
+        </div>
+        <div class="about-copy">
+          <p>В этом портфолио можно посмотреть, как я подхожу к двум разным задачам. На сайте важны читаемость, понятные ссылки и удобство на маленьком экране. В игровом прототипе важны управление, темп и обратная связь после каждого действия.</p>
+          <p>В Devil Hunter перекат помогает выйти из зоны удара, а прицеливание мышью задаёт направление атаки. Сайт, в свою очередь, собран так, чтобы до любой работы можно было добраться и с телефона, и с клавиатуры.</p>
+          <ul class="stack" aria-label="Технологии">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Godot</li>
+            <li>Git</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="shell contact-layout">
+        <div>
+          <h2 id="contact-heading">На связи</h2>
+          <p class="contact-lead">Хочешь обсудить проект или задать вопрос? Напиши мне.</p>
+          <ul class="contact-links">
+            <li><a href="mailto:pavlenko.aleksandr0708@gmail.com">pavlenko.aleksandr0708@gmail.com</a></li>
+            <li><a href="tel:+79841937310">+7 984 193-73-10</a></li>
+          </ul>
+          <figure class="site-qr">
+            <img src="assets/qr-code.svg" width="88" height="88" loading="lazy" alt="QR-код для открытия AXL.DEV на телефоне">
+            <figcaption><a href="https://paxls.github.io/My_portfolio/">Открыть на телефоне</a></figcaption>
+          </figure>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="mailto:pavlenko.aleksandr0708@gmail.com" method="post" enctype="text/plain">
+          <div class="form-field">
+            <label for="name">Имя</label>
+            <input id="name" name="name" type="text" autocomplete="name" maxlength="100" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" maxlength="254" required>
+            <p class="field-error" id="email-error" hidden>Проверь адрес. В нём должен быть знак @.</p>
+          </div>
+          <div class="form-field">
+            <label for="message">Сообщение</label>
+            <textarea id="message" name="message" rows="4" maxlength="1200" required></textarea>
+          </div>
+          <div class="form-action">
+            <button class="button button-primary" type="submit">Открыть письмо</button>
+            <p class="form-note">Письмо откроется в почтовом приложении. Там его можно отправить.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer-layout">
+      <p>© 2026 Александр Павленко</p>
+      <ul class="socials" aria-label="Социальные сети">
+        <li><a href="https://github.com/pAXLs" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.87c-2.78.6-3.37-1.18-3.37-1.18-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.89 1.53 2.34 1.09 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.56 9.56 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
+        </a></li>
+        <li><a href="https://t.me/AXL_JDH" aria-label="Telegram">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M21.7 4.2a1 1 0 0 0-1.05.02L2.9 11.05c-.9.35-.89.9-.16 1.13l4.55 1.42 10.5-6.63c.5-.3.96-.14.58.2l-8.5 7.68-.32 4.7c.47 0 .68-.21.94-.47l2.2-2.15 4.6 3.4c.85.46 1.46.23 1.67-.79l3.02-14.23a1.2 1.2 0 0 0-.28-1.1Z"/></svg>
+        </a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="project-detail" aria-labelledby="project-detail-title">
+    <div class="dialog-body">
+      <form method="dialog"><button class="dialog-close" type="submit">Закрыть</button></form>
+      <img id="project-detail-image" alt="">
+      <h2 id="project-detail-title"></h2>
+      <p id="project-detail-copy"></p>
+    </div>
+  </dialog>
+</body>
+</html>
